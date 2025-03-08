@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # Mount the current directory to /app in the container
+      - .:/app
+    # Use env_file to manage environment variables
+    env_file:
+      - .env
+    # Restart policy
+    restart: unless-stopped
