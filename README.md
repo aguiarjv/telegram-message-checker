@@ -5,9 +5,7 @@ don't have time to check all the messages but you want to filter some of them in
 
 ## Prerequisites
 
-- Python 3.8+
 - Git
-- Virtualenv
 - Docker
 
 ## Installation and Usage
